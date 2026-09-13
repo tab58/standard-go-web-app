@@ -1,0 +1,7 @@
+version: '3'
+
+tasks:
+  run:
+    desc: Run the standard-go-web-app server
+    dir: "{{.ROOT_DIR}}"
+    cmd: go run ./cmd/app
